@@ -1,0 +1,65 @@
+html {
+    font-family: Verdana;
+    color: #3C4359;
+    margin: 10px 75px 10px 75px;
+    background-color: #F3F2E2;
+}
+
+.banner {
+    display: flex;
+    height: 400px;
+    background-color: #BDBF80;
+    flex-direction: row-reverse;
+}
+
+.mountain img{
+    width: auto;
+    height: auto;
+}
+
+.header {
+    text-align: start;
+    padding: 50px 0 50px 50px;
+    margin: 20px 0 20px 250px;
+}
+
+.protecting {
+    font-size: 16px;
+}
+
+.intro {
+    margin: 0 250px 0 250px;
+    line-height: 2;
+}
+
+.item1 {
+    background-color: #ffffff;
+    transform: translate(0, -30px);
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 250px;
+    background-color: #BDBF80;
+    line-height: 2;
+    transform: translate(0, -70px);
+    height: 425px;
+}
+
+.related {
+    margin: 32px 0 0 32px;
+}
+
+.links {
+    margin: 0 0 0 32px;
+}
+
+.trees {
+    width: 25%;
+    transform: translate(700px, -250px);
+
+}
